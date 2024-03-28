@@ -1,0 +1,620 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0A0BA6922BA72A7D0007EB41 /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A0BA6912BA72A7D0007EB41 /* Login.swift */; };
+		0A12A22E2BB06969000903DA /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A12A22D2BB06969000903DA /* TabBar.swift */; };
+		0A12A2302BB07A2D000903DA /* Registro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A12A22F2BB07A2D000903DA /* Registro.swift */; };
+		0A1922992BA3D9F40097D2D4 /* Register.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A1922982BA3D9F40097D2D4 /* Register.swift */; };
+		0A3DF2742B957B0D0064D359 /* DrugStoreApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A3DF2732B957B0D0064D359 /* DrugStoreApp.swift */; };
+		0A3DF2762B957B0D0064D359 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A3DF2752B957B0D0064D359 /* ContentView.swift */; };
+		0A3DF2782B957B0F0064D359 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A3DF2772B957B0F0064D359 /* Assets.xcassets */; };
+		0A3DF27B2B957B0F0064D359 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A3DF27A2B957B0F0064D359 /* Preview Assets.xcassets */; };
+		0A3DF2852B957B100064D359 /* DrugStoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A3DF2842B957B100064D359 /* DrugStoreTests.swift */; };
+		0A3DF28F2B957B100064D359 /* DrugStoreUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A3DF28E2B957B100064D359 /* DrugStoreUITests.swift */; };
+		0A3DF2912B957B100064D359 /* DrugStoreUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A3DF2902B957B100064D359 /* DrugStoreUITestsLaunchTests.swift */; };
+		0A6B7E9F2B96BA6400E1387E /* SplashScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A6B7E9E2B96BA6400E1387E /* SplashScreenView.swift */; };
+		0AD624FB2B9DFA050037B7CE /* drug_login.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0AD624FA2B9DFA050037B7CE /* drug_login.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0A3DF2812B957B100064D359 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0A3DF2682B957B0D0064D359 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0A3DF26F2B957B0D0064D359;
+			remoteInfo = DrugStore;
+		};
+		0A3DF28B2B957B100064D359 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0A3DF2682B957B0D0064D359 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0A3DF26F2B957B0D0064D359;
+			remoteInfo = DrugStore;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0A0BA6912BA72A7D0007EB41 /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
+		0A12A22D2BB06969000903DA /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
+		0A12A22F2BB07A2D000903DA /* Registro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Registro.swift; sourceTree = "<group>"; };
+		0A1922982BA3D9F40097D2D4 /* Register.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Register.swift; sourceTree = "<group>"; };
+		0A3DF2702B957B0D0064D359 /* DrugStore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DrugStore.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A3DF2732B957B0D0064D359 /* DrugStoreApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrugStoreApp.swift; sourceTree = "<group>"; };
+		0A3DF2752B957B0D0064D359 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		0A3DF2772B957B0F0064D359 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0A3DF27A2B957B0F0064D359 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0A3DF2802B957B100064D359 /* DrugStoreTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DrugStoreTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A3DF2842B957B100064D359 /* DrugStoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrugStoreTests.swift; sourceTree = "<group>"; };
+		0A3DF28A2B957B100064D359 /* DrugStoreUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DrugStoreUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A3DF28E2B957B100064D359 /* DrugStoreUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrugStoreUITests.swift; sourceTree = "<group>"; };
+		0A3DF2902B957B100064D359 /* DrugStoreUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrugStoreUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		0A6B7E9E2B96BA6400E1387E /* SplashScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenView.swift; sourceTree = "<group>"; };
+		0AD624FA2B9DFA050037B7CE /* drug_login.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = drug_login.jpg; path = "../../../../Downloads/professional-pharmaceutical-science-pharmacist-checking-medicaments-pharmacy-store-pharmacy-business/drug_login.jpg"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0A3DF26D2B957B0D0064D359 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A3DF27D2B957B100064D359 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A3DF2872B957B100064D359 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0A3DF2672B957B0D0064D359 = {
+			isa = PBXGroup;
+			children = (
+				0A3DF2722B957B0D0064D359 /* DrugStore */,
+				0A3DF2832B957B100064D359 /* DrugStoreTests */,
+				0A3DF28D2B957B100064D359 /* DrugStoreUITests */,
+				0A3DF2712B957B0D0064D359 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0A3DF2712B957B0D0064D359 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0A3DF2702B957B0D0064D359 /* DrugStore.app */,
+				0A3DF2802B957B100064D359 /* DrugStoreTests.xctest */,
+				0A3DF28A2B957B100064D359 /* DrugStoreUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0A3DF2722B957B0D0064D359 /* DrugStore */ = {
+			isa = PBXGroup;
+			children = (
+				0AD624F42B9DF9CA0037B7CE /* assets */,
+				0A3DF2732B957B0D0064D359 /* DrugStoreApp.swift */,
+				0A3DF2752B957B0D0064D359 /* ContentView.swift */,
+				0A6B7E9E2B96BA6400E1387E /* SplashScreenView.swift */,
+				0A3DF2772B957B0F0064D359 /* Assets.xcassets */,
+				0A3DF2792B957B0F0064D359 /* Preview Content */,
+				0A0BA6912BA72A7D0007EB41 /* Login.swift */,
+			);
+			path = DrugStore;
+			sourceTree = "<group>";
+		};
+		0A3DF2792B957B0F0064D359 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				0A3DF27A2B957B0F0064D359 /* Preview Assets.xcassets */,
+				0A12A22D2BB06969000903DA /* TabBar.swift */,
+				0A12A22F2BB07A2D000903DA /* Registro.swift */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0A3DF2832B957B100064D359 /* DrugStoreTests */ = {
+			isa = PBXGroup;
+			children = (
+				0A3DF2842B957B100064D359 /* DrugStoreTests.swift */,
+			);
+			path = DrugStoreTests;
+			sourceTree = "<group>";
+		};
+		0A3DF28D2B957B100064D359 /* DrugStoreUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0A3DF28E2B957B100064D359 /* DrugStoreUITests.swift */,
+				0A3DF2902B957B100064D359 /* DrugStoreUITestsLaunchTests.swift */,
+			);
+			path = DrugStoreUITests;
+			sourceTree = "<group>";
+		};
+		0AD624F42B9DF9CA0037B7CE /* assets */ = {
+			isa = PBXGroup;
+			children = (
+				0AD624FA2B9DFA050037B7CE /* drug_login.jpg */,
+				0A1922982BA3D9F40097D2D4 /* Register.swift */,
+			);
+			path = assets;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0A3DF26F2B957B0D0064D359 /* DrugStore */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A3DF2942B957B100064D359 /* Build configuration list for PBXNativeTarget "DrugStore" */;
+			buildPhases = (
+				0A3DF26C2B957B0D0064D359 /* Sources */,
+				0A3DF26D2B957B0D0064D359 /* Frameworks */,
+				0A3DF26E2B957B0D0064D359 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DrugStore;
+			productName = DrugStore;
+			productReference = 0A3DF2702B957B0D0064D359 /* DrugStore.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0A3DF27F2B957B100064D359 /* DrugStoreTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A3DF2972B957B100064D359 /* Build configuration list for PBXNativeTarget "DrugStoreTests" */;
+			buildPhases = (
+				0A3DF27C2B957B100064D359 /* Sources */,
+				0A3DF27D2B957B100064D359 /* Frameworks */,
+				0A3DF27E2B957B100064D359 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0A3DF2822B957B100064D359 /* PBXTargetDependency */,
+			);
+			name = DrugStoreTests;
+			productName = DrugStoreTests;
+			productReference = 0A3DF2802B957B100064D359 /* DrugStoreTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0A3DF2892B957B100064D359 /* DrugStoreUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A3DF29A2B957B100064D359 /* Build configuration list for PBXNativeTarget "DrugStoreUITests" */;
+			buildPhases = (
+				0A3DF2862B957B100064D359 /* Sources */,
+				0A3DF2872B957B100064D359 /* Frameworks */,
+				0A3DF2882B957B100064D359 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0A3DF28C2B957B100064D359 /* PBXTargetDependency */,
+			);
+			name = DrugStoreUITests;
+			productName = DrugStoreUITests;
+			productReference = 0A3DF28A2B957B100064D359 /* DrugStoreUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0A3DF2682B957B0D0064D359 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					0A3DF26F2B957B0D0064D359 = {
+						CreatedOnToolsVersion = 15.2;
+						LastSwiftMigration = 1530;
+					};
+					0A3DF27F2B957B100064D359 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 0A3DF26F2B957B0D0064D359;
+					};
+					0A3DF2892B957B100064D359 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 0A3DF26F2B957B0D0064D359;
+					};
+				};
+			};
+			buildConfigurationList = 0A3DF26B2B957B0D0064D359 /* Build configuration list for PBXProject "DrugStore" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0A3DF2672B957B0D0064D359;
+			productRefGroup = 0A3DF2712B957B0D0064D359 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0A3DF26F2B957B0D0064D359 /* DrugStore */,
+				0A3DF27F2B957B100064D359 /* DrugStoreTests */,
+				0A3DF2892B957B100064D359 /* DrugStoreUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0A3DF26E2B957B0D0064D359 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A3DF27B2B957B0F0064D359 /* Preview Assets.xcassets in Resources */,
+				0AD624FB2B9DFA050037B7CE /* drug_login.jpg in Resources */,
+				0A3DF2782B957B0F0064D359 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A3DF27E2B957B100064D359 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A3DF2882B957B100064D359 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0A3DF26C2B957B0D0064D359 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A3DF2762B957B0D0064D359 /* ContentView.swift in Sources */,
+				0A0BA6922BA72A7D0007EB41 /* Login.swift in Sources */,
+				0A3DF2742B957B0D0064D359 /* DrugStoreApp.swift in Sources */,
+				0A12A22E2BB06969000903DA /* TabBar.swift in Sources */,
+				0A12A2302BB07A2D000903DA /* Registro.swift in Sources */,
+				0A1922992BA3D9F40097D2D4 /* Register.swift in Sources */,
+				0A6B7E9F2B96BA6400E1387E /* SplashScreenView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A3DF27C2B957B100064D359 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A3DF2852B957B100064D359 /* DrugStoreTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A3DF2862B957B100064D359 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A3DF2912B957B100064D359 /* DrugStoreUITestsLaunchTests.swift in Sources */,
+				0A3DF28F2B957B100064D359 /* DrugStoreUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0A3DF2822B957B100064D359 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0A3DF26F2B957B0D0064D359 /* DrugStore */;
+			targetProxy = 0A3DF2812B957B100064D359 /* PBXContainerItemProxy */;
+		};
+		0A3DF28C2B957B100064D359 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0A3DF26F2B957B0D0064D359 /* DrugStore */;
+			targetProxy = 0A3DF28B2B957B100064D359 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0A3DF2922B957B100064D359 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0A3DF2932B957B100064D359 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0A3DF2952B957B100064D359 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DrugStore/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = utec.DrugStore;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0A3DF2962B957B100064D359 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DrugStore/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = utec.DrugStore;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0A3DF2982B957B100064D359 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = utec.DrugStoreTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DrugStore.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DrugStore";
+			};
+			name = Debug;
+		};
+		0A3DF2992B957B100064D359 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = utec.DrugStoreTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DrugStore.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DrugStore";
+			};
+			name = Release;
+		};
+		0A3DF29B2B957B100064D359 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = utec.DrugStoreUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DrugStore;
+			};
+			name = Debug;
+		};
+		0A3DF29C2B957B100064D359 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = utec.DrugStoreUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DrugStore;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0A3DF26B2B957B0D0064D359 /* Build configuration list for PBXProject "DrugStore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A3DF2922B957B100064D359 /* Debug */,
+				0A3DF2932B957B100064D359 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0A3DF2942B957B100064D359 /* Build configuration list for PBXNativeTarget "DrugStore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A3DF2952B957B100064D359 /* Debug */,
+				0A3DF2962B957B100064D359 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0A3DF2972B957B100064D359 /* Build configuration list for PBXNativeTarget "DrugStoreTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A3DF2982B957B100064D359 /* Debug */,
+				0A3DF2992B957B100064D359 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0A3DF29A2B957B100064D359 /* Build configuration list for PBXNativeTarget "DrugStoreUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A3DF29B2B957B100064D359 /* Debug */,
+				0A3DF29C2B957B100064D359 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0A3DF2682B957B0D0064D359 /* Project object */;
+}
