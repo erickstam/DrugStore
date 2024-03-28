@@ -11,7 +11,7 @@ struct ContentView: View {
     var body: some View {
         //Stack del titulo
         VStack{
-            Text("Drug Store")
+            Text("Drug Store.")
                 .foregroundStyle(.cyan)
                 .font(.system(size: 40))
                 .bold()
